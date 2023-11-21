@@ -1,0 +1,120 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: #d1cbc0;
+}
+
+div * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 29px;
+  text-align: center;
+  margin: 0;
+}
+
+.turnblack {
+  background: black!important;
+  color: #fff;
+}
+
+.turnwhite{
+  background: #fff!important;
+  color: #000;
+}
+
+#turn {
+  max-width: 451px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  float: right;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  border-style: inset;
+  text-align: center;
+  padding: 5px 0 0 0;
+  background: #fff;
+  transition: .85s linear;
+}
+
+.turnhighlight {
+  background: #5cb85c !important;
+  color: #fff;
+}
+
+
+.boton{
+  font-size: 14px;
+  margin: 5px auto;
+  border: 0;
+  display: block;
+  padding: 10px;
+  width: 150px;
+  text-align:center;
+  clear:both;
+  color: white;
+  border-radius: 40px;
+  background-color: #000;
+  cursor: pointer;
+}
+.boton:hover {
+    background-color: #280933;
+}
+
+#game {
+  max-width: 510px;
+  max-height: 510px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 2px auto;
+}
+
+.cellprefix {
+  width: 100%;
+  height: 100%;
+  max-width: 50px;
+  max-height: 50px;
+  float: left;
+  margin: 3px;
+  padding: 15px 0 0 20px;
+
+}
+
+.gamecell {
+  background: #fff;
+  border: 1px solid #000;
+  width: 100%;
+  height: 100%;
+  max-width: 50px;
+  max-height: 50px;
+  float: left;
+  margin: 3px;
+  transition: all 0.5s ease-in-out;
+  font-size: 30pt;
+  padding: 0 0 0 3px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.gamecell:hover {
+  background: rgba(37, 88, 228, 0.712);
+}
+
+.grey {
+  background: #e4b17d;
+}
+
+.green {
+  background: rgb(65, 161, 73) !important;
+}
+
